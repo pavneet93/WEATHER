@@ -1,0 +1,48 @@
+
+<html>
+
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+  <h1 class="center">Weather APP 2017</h1>
+  
+  
+  <div id="input" align="center">
+       <span> PLEASE SELECT A SOURCE</span>
+	   
+       
+		<input type="submit" id="submit" onClick="submit()" style="border-radius:5px;"/>
+  </div>
+  <div id="weatherholder" style="visibility:hidden;">
+    
+      <div id="temp" class="temperature center">
+	  <span id="temperature">0</span>&deg;
+	  </div></br>
+      <div class="location center">
+	  <span id="location">Unknown</span>
+	  <span id="country">, Unknown</span>
+</div>
+</br>
+      <center> <img id="icon" width="75px" src="imgs/codes/200.png" />
+</br>
+        <div class="humidity center">
+          <img src=""height="16px" />
+          <span id="humidity">0</span>%
+        </div>
+     </br>   <div class="direction center"><span id="direction">N</span></div></br>
+        <div class="description center">
+          <span id="description">Sunny</span></div>
+
+  </br>
+  <div class="center"><input class="btn btn-primary" onclick="ctf()" type="button" value="Change to Celsius" id="myButton1" style="border-radius:5px;"></input>
+  </div>
+  
+</div>
+
+  </body>
+
+</html>
